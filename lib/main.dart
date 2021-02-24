@@ -30,7 +30,7 @@ class _MyAppState extends State<MyApp> {
       theme:
           ThemeData(fontFamily: "Montserrat", accentColor: Colors.green[900]),
       debugShowCheckedModeBanner: false,
-      home: Scaffold(backgroundColor: Colors.white, body: CreditComplete()),
+      home: Scaffold(backgroundColor: Colors.white, body: Home()),
     );
   }
 }
